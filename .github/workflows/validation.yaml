@@ -5,6 +5,9 @@ on:
     branches:
     - main
 
+permissions:
+  contents: write   
+
 jobs:
   validation-pipeline:
     runs-on: ubuntu-latest
